@@ -2,6 +2,11 @@
   "name": "objdumper-extension",
   "displayName": "objdumper-extension",
   "description": "objdump files in the editor",
+  "publisher": "vaaar",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaaar/vscode-objdumper.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.92.0"
@@ -9,8 +14,7 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
